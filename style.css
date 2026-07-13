@@ -143,7 +143,7 @@ ul li a {
     gap: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
-    
+
 }
 
 .card-item {
@@ -151,18 +151,20 @@ ul li a {
     border-radius: 10px;
 
 }
-.card-item-2{
-    background-color:#0d1b2aFF;
+
+.card-item-2 {
+    background-color: #0d1b2aFF;
     color: white;
 }
 
-.card-item ul li::marker{
+.card-item ul li::marker {
     color: blue;
 }
 
-.pro{
+.pro {
     color: lightskyblue;
 }
+
 .top {
     justify-items: start;
     padding: 5px 25px 5px 35px;
@@ -173,7 +175,7 @@ ul li a {
     padding: 10px 25px 30px 35px;
 }
 
-.b1{
+.b1 {
     border: 1px solid blue;
     padding: 7.5px 80px;
     background-color: white;
@@ -181,16 +183,17 @@ ul li a {
     border-radius: 10px;
     text-align: justify;
     font-weight: 500;
-    
+
 }
 
-.b2{
+.b2 {
     padding: 7.5px 80px;
-     border-radius: 10px;
+    border-radius: 10px;
     text-align: justify;
     font-weight: 500;
-    
+
 }
+
 .b3 {
     border: 1px solid black;
     padding: 7.5px 80px;
@@ -199,5 +202,78 @@ ul li a {
     border-radius: 10px;
     text-align: justify;
     font-weight: 500;
-    
+
+}
+
+.schedule-title {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.schedule {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+
+}
+
+.placeholder {
+    margin: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.countdown {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.time {
+    color: white;
+    background-color: darkblue;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.event {
+    font-size: 20px;
+    text-align: left;
+}
+
+.section-title {
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+.why {
+    justify-content: space-evenly;
+}
+
+.why-title {
+    justify-content: center;
+    padding: 5px;
+}
+
+.why-list {
+    font-size: 20px;
+    justify-items: center;
+
+}
+
+.why-list li {
+    padding: 5px;
+    text-align: left;
+}
+
+footer {
+    background-color: #0d1b2aFF;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
 }

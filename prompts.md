@@ -1,0 +1,3 @@
+prompt used:
+suppose u r my web-engineering mentor and personal guide. I have been given a task to build a web developers conference website which has a navigation bar section, banner section, speakers section, pricing section, and a footer section,
+i have been challenged to add a unique additional section that will be relevant to the theme and it carries 10 mark. design some sections for me according to the requirement. do make it unique and professional but note that im only a beginner. ive learnt html and css basics like flex,grid layoutetc
